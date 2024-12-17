@@ -1,6 +1,6 @@
 # EvolveX
 
-This repository contains the code of EvolveX, a *de novo* antibody computational design pipeline introduced in [link to paper](). Specifically, it corresponds to the computational pipeline that generates antibody designs given an initial set of antibody-antigen docks, which is driven by the FoldX force field to optimize the binding affinity while maintaining the thermodynamic stability of the designed antibodies.
+This repository contains the code of EvolveX, a *de novo* antibody computational design pipeline introduced in [link to paper](). Specifically, it corresponds to the computational pipeline that generates antibody designs given an initial set of antibody-antigen docks and a set of positions to mutate and explore, which is driven by the FoldX force field to optimize the binding affinity while maintaining the thermodynamic stability of the designed antibodies.
 
 # Installation
 
@@ -16,7 +16,7 @@ The code has been tested on Linux and MacOS operating systems.
 
 The evolvex command only takes a single input, which is a YAML configuration file, for which an example can be found in "evolvex_config_example.yaml". 
 
-**If you wish to run the human Vsig4 example** showcased in our publication, simply set the number of CPU cores and the path to your FoldX folder in the pre-filled configuration file "evolvex_config_Vsig4.yaml" and run "evolvex evolvex_config_Vsig4.yaml". It will use the pre-generated antibody-antigen docks and input files in the "Vsig4_example" folder. Note that the search parameters have been set to a reduced version as it only runs 10 iterations, 2 models per dock and performs recombination every 5 iterations, which should take 1-2 hours to run on a personal laptop with ~10 CPU cores. To run the same search as we did using 500 iterations, a population of 50 models per dock and recombination every 50 iterations you would need to run it on a lab cluster or HPC (see the [additional details section](#additional-details) to run it on SLURM-based HPCs), as it would take weeks to run on a personal laptop.
+**If you wish to run EvolveX on the human Vsig4 example** showcased in our publication, simply set the number of CPU cores and the path to your FoldX folder in the pre-filled configuration file "evolvex_config_Vsig4.yaml" and run "evolvex evolvex_config_Vsig4.yaml". It will use the pre-generated antibody-antigen docks and input files in the "Vsig4_example" folder. Note that the search parameters have been set to a reduced version as it only runs 10 iterations, 2 models per dock and performs recombination every 5 iterations, which should take 1-2 hours to run on a personal laptop with 10 CPU cores. To run the same search as we did using 500 iterations, a population of 50 models per dock and recombination every 50 iterations you would need to run it on a lab cluster or HPC (see the [additional details section](#additional-details) to run it on SLURM-based HPCs), as it would take weeks to run on a personal laptop.
 
 For details about the configuration file and additional input files needed to run EvolveX, read below.
 
