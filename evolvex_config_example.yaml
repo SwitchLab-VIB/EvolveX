@@ -1,0 +1,36 @@
+# PDB information
+antibody_chains: "HL"
+antigen_chains: "A"
+
+# Required paths
+working_dir: "/path/to/working/dir"
+foldx_dir: "/path/to/foldx"
+Backbones_dir: "/path/to/Backbones"
+PositionsToExplore_file_path: "/path/to/PositionsToExplore.txt"
+
+# Search algorithm settings
+search_algorithm: "MC-GA"
+max_iterations: 500
+population_size: 50 # To be understood as the population size per backbone. A warning is issued if the value is < 50.
+recombine_every_nth_iteration: 50
+
+# Compute settings
+compute_env: "local"  # local | SLURM
+n_cores: 10
+# SLURM specific settings
+# max_SLURM_jobs: 100
+# walltime: 3-00
+# account_name: "xxxxxx" # SLURM credit account
+# cluster_name: "xxxx"
+# cluster_partition: "xxxx"
+# SLURM_job_prologue:
+#   - "module --force purge"
+#   - "module load path/to/cluster/partition" 
+#   - "module load Python/xxxx"
+#   - "source /path/to/venv/bin/activate"
+
+# Other settings
+residues_to_ignore: "GMHC"
+vdwDesign: 2 # See https://foldxsuite.crg.eu/parameter/vdwDesign
+print_stdout: false # Useful for debugging
+calculate_binding_dG_with_water: true

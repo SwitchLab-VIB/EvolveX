@@ -1,0 +1,13 @@
+Pdb	number	Res1	Chain	AA_Allowed	MakeAla
+ABCD_dock_1	90	T	H	AUTO	Y
+ABCD_dock_1	92	F	H	AUTO	Y
+ABCD_dock_1	94	N	H	AUTO	Y
+ABCD_dock_1	96	A	H	AUTO	Y
+ABCD_dock_1	98	N	H	AUTO	Y
+ABCD_dock_1	100	Y	H	AUTO	Y
+ABCD_dock_2	90	T	H	AUTO	Y
+ABCD_dock_2	92	F	H	AUTO	Y
+ABCD_dock_2	94	N	H	AUTO	Y
+ABCD_dock_2	96	A	H	AUTO	Y
+ABCD_dock_2	98	N	H	AUTO	Y
+ABCD_dock_2	100	Y	H	AUTO	Y
