@@ -50,6 +50,6 @@ The YAML configuration parameters are the following:
     - Set the "account_name", "cluster_name" and "cluster_partition" according to your HPC.
     - Adapt the "SLURM_job_prologue" to your HPC, making sure the Python version you load is the same as the one used to create the virtual environment used to install Evolvex.
 
-Once the YAML file is ready, run "evolvex evolvex_config.yaml". While running, you will find a "generated_models_info.csv" file in the working_dir, which contains information about each of the models generated at every iteration for every initial PDB dock. This is the file that should be used to then select the antibody designs. The corresponding PDB file of each model is saved in the "model_PDB_files" directory. 
+Once the YAML file is ready, run "evolvex evolvex_config.yaml".
 
 **NOTE: When running on a SLURM environment, if a "tcp connection error" or any other similar error that suggests that the head process has lost communication with the workers arises when launching EvolveX from a login node, then try launching the evolvex command through a SLURM script so that the head process runs on a compute node instead (see the "evolvex_slurm_head_example.sbatch").**
