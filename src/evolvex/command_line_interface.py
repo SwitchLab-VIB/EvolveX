@@ -19,8 +19,8 @@ def read_and_validate_config_file(file_path):
     if not (GLOBALS.working_dir.is_dir()):
         GLOBALS.working_dir.mkdir(parents=True)
 
-    if not (GLOBALS.foldx_dir.is_dir() and (GLOBALS.foldx_dir / 'foldx').exists() and (GLOBALS.foldx_dir / 'rotabase.txt').exists()):
-        raise ValueError("The foldx_dir must contain an executable file named 'foldx' and a 'rotabase.txt' file.")
+    if not (GLOBALS.foldx_dir.is_dir() and (GLOBALS.foldx_dir / 'foldx').exists()):
+        raise ValueError("The foldx_dir must contain an executable file named 'foldx'.")
 
     if GLOBALS.search_algorithm not in ('systematic', 'GA'):
         raise ValueError("The search_algorithm must be one of 'GA' or 'systematic'.")

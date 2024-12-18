@@ -39,7 +39,6 @@ def run_foldx_BuildModel(
     
     command = [
         str(foldx_dir / 'foldx'), 
-        '--rotabaseLocation', str(foldx_dir / 'rotabase.txt'),
         '--command', 'BuildModel',
         '--pdb-dir', str(PDB_file_dir),
         '--pdb', f'{PDB_file_name}.pdb',
@@ -79,7 +78,6 @@ def run_foldx_AnalyseComplex(foldx_dir, PDB_file_dir, PDB_file_name, antibody_ch
 
     command = [
         str(foldx_dir / 'foldx'), 
-        '--rotabaseLocation', str(foldx_dir / 'rotabase.txt'),
         '--command', 'AnalyseComplex',
         '--pdb-dir', str(PDB_file_dir),
         '--pdb', f'{PDB_file_name}.pdb',
@@ -107,7 +105,6 @@ def run_foldx_Stability(foldx_dir, PDB_file_dir, PDB_file_name, vdwDesign, print
 
     command = [
         str(foldx_dir / 'foldx'), 
-        '--rotabaseLocation', str(foldx_dir / 'rotabase.txt'),
         '--command', 'Stability',
         '--pdb-dir', str(PDB_file_dir),
         '--pdb', f'{PDB_file_name}.pdb',
