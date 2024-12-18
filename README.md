@@ -20,8 +20,10 @@ The evolvex command only takes a single input, which is a YAML configuration fil
 Note that the search parameters have been set to a reduced version as it only runs 10 iterations, 2 models per dock and performs recombination every 5 iterations, which should take ~3 hours to run on a personal laptop with 10 CPU cores. To run an even more reduced and faster version, remove all but 1 PDB file in the "Vsig4_example" folder, which should take < 1h. To run the same search as we did using 500 iterations, a population of 50 models per dock and recombination every 50 iterations, you would need to run it on a lab cluster or HPC (see the [additional details section](#additional-details) to run it on SLURM-based HPCs), otherwise it would take weeks to run on a personal laptop.
 
 EvolveX generates two main outputs in the working_dir folder:
+
   - A "generated_models_info.csv" file containing the sequence designs selected at each iteration for each model.
-  - A "model_PDB_files" folder containing the PDB files of each model in the CSV file. 
+  - A "model_PDB_files" folder containing the PDB files of each model in the CSV file.
+
 We then filter these designs using a number of thresholds for different characteristics which are determined based on the distribution of each characteristic in known antibody 3D structures, all of which is described in detail in our publication.
 
 For details about the configuration file and additional input files needed to run EvolveX, read below.
