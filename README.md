@@ -1,6 +1,6 @@
 # EvolveX
 
-This repository contains the code of EvolveX, a *de novo* antibody computational design pipeline introduced in [link to paper](). Specifically, it corresponds to the computational pipeline that generates antibody designs given an initial set of antibody-antigen docks and a set of positions to mutate and explore, which is driven by the FoldX force field to optimize the binding affinity while maintaining the thermodynamic stability of the designed antibodies.
+This repository contains the code of EvolveX, a *de novo* antibody computational design pipeline introduced in <[future link to paper]()>. Specifically, it corresponds to the computational pipeline that generates antibody designs given an initial set of antibody-antigen docks and a set of positions to mutate and explore, which is driven by the FoldX force field to optimize the binding affinity while maintaining the thermodynamic stability of the designed antibodies.
 
 # Installation
 
@@ -8,7 +8,7 @@ This repository contains the code of EvolveX, a *de novo* antibody computational
 - Strongly recommended to create a virtual environment (run "python -m venv venv", then "source venv/bin/activate")
 - Download and unzip the github repository.
 - Run "pip install ." from the directory that contains the "setup.py file". This will create an "evolvex" command that you can run from the command line.
-- Running EvolveX additionally requires FoldX, which can be obtained [here](https://foldxsuite.crg.eu/licensing-and-services).
+- Running EvolveX additionally requires FoldX **(version >= 5)**, which can be obtained [here](https://foldxsuite.crg.eu/licensing-and-services).
 
 The code has been tested on Linux and MacOS operating systems.
 
@@ -21,7 +21,7 @@ Note that the search parameters have been set to a reduced version as it only ru
 
 EvolveX generates two main outputs in the working_dir folder:
 
-  - A "generated_models_info.csv" file containing the sequence designs selected at each iteration for each model.
+  - A "generated_models_info.csv" file containing the qntibody sequence designs selected at each iteration for each model.
   - A "model_PDB_files" folder containing the PDB files of each model in the CSV file.
 
 We then filter these designs using a number of thresholds for different characteristics which are determined based on the distribution of each characteristic in known antibody 3D structures, all of which is described in detail in our publication.
@@ -34,10 +34,10 @@ The YAML configuration parameters are the following:
 - The "antibody_chains" and "antigen_chains" parameters are self-explanatory. The antibody can be a single chain (i.e nanobody) or a standard double chain Fv.
 
 - In the "Required paths" section:
-  - The working_dir is where evolvex will write all the files it generates. If you are running on an HPC, make sure this folder points to a directory with enough space and which can perform fast writes.
+  - The working_dir is where EvolveX will write all the files it generates. If you are running on an HPC, make sure this folder points to a directory with enough space and which can perform fast writes.
   - The foldx_path should contain an executable file named "foldx".
   - The Backbones_dir should contain PDB files corresponding to the initial set of antibody-antigen docks.
-  - The PositionsToExplore_file_path should be a TSV-formated file containing the positions to mutate for each PDB file in Backbones_dir (see PositionsToExplore_example.tsv for format). "AA_Allowed" can either be a string of pre-selected amino acids in single letter format (e.g KRHDE), or set to "AUTO" to let evolvex test each individual mutation and determine which ones are worth trying during the GA search. "MakeAla" can be set to "Y", in which case that position will be mutated to Alanine before the GA search, or to "N", in which case the wildtype amino acid will be kept as the starting amino acid at that position before the GA search.
+  - The PositionsToExplore_file_path should be a TSV-formated file containing the positions to mutate for each PDB file in Backbones_dir (see PositionsToExplore_example.tsv for format). "AA_Allowed" can either be a string of pre-selected amino acids in single letter format (e.g KRHDE), or set to "AUTO" to let EvolveX test each individual mutation and determine which ones are worth trying during the GA search. "MakeAla" can be set to "Y", in which case that position will be mutated to Alanine before the GA search, or to "N", in which case the wildtype amino acid will be kept as the starting amino acid at that position before the GA search.
 
 - In the "Search algorithm settings" section, the population_size corresponds to the number of models that will be generated and explored PER DOCK. So if you have 100 PDBs and set this to 100, 10000 models will be generated and explored over the number of iterations you have selected. By default, we run 500 iterations, 50 models per dock and do a recombination step every 50 iterations.
 
@@ -52,4 +52,4 @@ The YAML configuration parameters are the following:
 
 Once the YAML file is ready, run "evolvex evolvex_config.yaml".
 
-**NOTE: When running on a SLURM environment, if a "tcp connection error" or any other similar error that suggests that the head process has lost communication with the workers arises when launching EvolveX from a login node, then try launching the evolvex command through a SLURM script so that the head process runs on a compute node instead (see the "evolvex_slurm_head_example.sbatch").**
+**NOTE: When running on a SLURM environment, if a "tcp connection error" or any other similar error that suggests that the head process has lost communication with the workers arises when launching EvolveX from a login node, try launching the evolvex command through a SLURM script so that the head process runs on a compute node instead (see the "evolvex_slurm_head_example.sbatch").**
