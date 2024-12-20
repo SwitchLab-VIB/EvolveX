@@ -21,7 +21,7 @@ Note that the search parameters have been set to a reduced version as it only ru
 
 EvolveX generates two main outputs in the working_dir folder:
 
-  - A "generated_models_info.csv" file containing the qntibody sequence designs selected at each iteration for each model.
+  - A "generated_models_info.csv" file containing the antibody sequence designs selected at each iteration for each model.
   - A "model_PDB_files" folder containing the PDB files of each model in the CSV file.
 
 We then filter these designs using a number of thresholds for different characteristics which are determined based on the distribution of each characteristic in known antibody 3D structures, all of which is described in detail in our publication.
@@ -43,7 +43,7 @@ The YAML configuration parameters are the following:
 
 - In the "Compute settings" section:
   - The "compute_env" can be set to "local" (default) or "SLURM" if running on a SLURM-based HPC.
-  - The "n_cores" sets the number of parallel CPU cores to use, both for the local of SLURM compute environments.
+  - The "n_cores" sets the number of parallel CPU cores to use, both for the local or SLURM compute environments.
   - When running on SLURM, additional parameters are required:
     - The number of CPU cores are split across "max_SLURM_jobs". Most SLURM HPCs limit the number of jobs a user can have in the queue at any time, so you should set the "max_SLURM_jobs" accordingly. For example, if n_cores=250 and max_SLURM_jobs=25, then 25 jobs with 10 CPU cores each will be submitted.
     - The "walltime" corresponds to the maximum time the jobs will run for.
