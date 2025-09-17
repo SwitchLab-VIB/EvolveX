@@ -7,7 +7,7 @@ NGS raw data were preliminarily processed at Galaxy website with PEAR merger. Th
 
 Then these files were further processed with in-house python script **count.py**. UMI information was used to deduplicate and CDR2, CDR3 sequences were extracted. For each nxx.tabular file, there were two output csv files: one contained unique CDR2 sequences and their counts; one contained unique CDR3 sequences and their counts. There was also a summarized processing file for all the samples. Output files were stored in the folder **processed_file_after_count.zip**. 
 
-Afterward, files with CDR sequence and counts can be further merged with their negative control groups, sorted and mapped based on customized requirement (**file_list.csv**) and designed sequence map (**id.csv**).Python script **merge.py** was used. Output files were stored in the folder **processed_file_after_merge.zip**. 
+Afterward, files with CDR sequence and counts can be further merged with their negative control groups, sorted and mapped based on customized requirement (**file_list.csv**) and designed sequence map (**id.csv**). Python script **merge.py** was used. Output files were stored in the folder **processed_file_after_merge.zip**. 
 
 Plots for count and enrichment for each CDR sequence in each round were made in the folder **Plots**. 
 
