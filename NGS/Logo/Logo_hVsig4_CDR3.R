@@ -67,4 +67,4 @@ Human_sequence_logos <- plot_grid(p3, p4, p1, p2, ncol = 1)
 # Display the Human sequence logos
 print(Human_sequence_logos)
 
-ggsave("Human_sequence_logos.pdf", Human_sequence_logos, dpi = 600, width = 8, height = 6)
+ggsave("Human_sequence_logos_CDR3.pdf", Human_sequence_logos, dpi = 600, width = 8, height = 6)
