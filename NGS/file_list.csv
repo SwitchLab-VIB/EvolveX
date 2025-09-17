@@ -1,0 +1,13 @@
+file1,file2,output,min_count,min_enrichment
+n65,n67,mR1_25nM,10,10
+n66,n67,hR1_500nM,10,10
+n68,n70,mR2_25nM,1,1
+n69,n70,mR2_5nM,1,1
+n71,n73,hR2_500nM,1,1
+n72,n73,hR2_50nM,1,1
+n74,n75,mR3_5nM,1,1
+n76,n77,mR3_0.5nM,1,1
+n78,n79,hR3_50nM,1,1
+n80,n81,hR3_5nM,1,1
+n82,n83,mR4_0.5nM,1,1
+n84,n85,hR4_5nM,1,1
