@@ -1,0 +1,45 @@
+FoldX 5.1 (2011)
+by the FoldX Consortium 
+Jesper Borg, Frederic Rousseau, Joost Schymkowitz,
+Luis Serrano and Francois Stricher
+------------------------------------------------------
+
+PDB file analysed: ./5imkBA_Repair_1_1_0.pdb
+Output type: AnalyseComplex
+Pdb	Group1	Group2	IntraclashesGroup1	IntraclashesGroup2	Interaction Energy	StabilityGroup1	StabilityGroup2
+./5imkBA_Repair_1_1_0.pdb	N	L	20.0206	5.63294	-15.1232	-14.4486	-13.2633
+./5imkBA_Repair_1_1_1.pdb	N	L	24.4408	5.61467	-14.9726	-8.62985	-13.0237
+./5imkBA_Repair_1_1_2.pdb	N	L	21.1839	5.59887	-14.6928	-10.4231	-13.4763
+./WT_5imkBA_Repair_1_1_0.pdb	N	L	8.4345	5.5689	-7.73387	-11.8867	-14.8119
+./WT_5imkBA_Repair_1_1_1.pdb	N	L	8.41227	5.64623	-7.67004	-11.9081	-14.3381
+./WT_5imkBA_Repair_1_1_2.pdb	N	L	8.43004	5.75402	-7.8233	-12.3392	-13.8437
+./5imkBA_Repair_1_2_0.pdb	N	L	22.3606	5.73966	-15.7231	-8.04792	-14.1886
+./5imkBA_Repair_1_2_1.pdb	N	L	22.685	5.56209	-15.9345	-7.66194	-13.3129
+./5imkBA_Repair_1_2_2.pdb	N	L	22.8071	5.61598	-15.248	-7.70798	-14.2318
+./WT_5imkBA_Repair_1_2_0.pdb	N	L	8.42269	5.70851	-7.64274	-11.8891	-14.5704
+./WT_5imkBA_Repair_1_2_1.pdb	N	L	8.41743	5.82198	-7.99767	-11.8946	-13.4994
+./WT_5imkBA_Repair_1_2_2.pdb	N	L	8.42116	5.90088	-7.81343	-12.2144	-13.8889
+./5imkBA_Repair_1_3_0.pdb	N	L	10.3991	5.5217	-15.1166	-23.8802	-13.023
+./5imkBA_Repair_1_3_1.pdb	N	L	9.30671	5.78412	-14.4192	-21.5994	-13.7323
+./5imkBA_Repair_1_3_2.pdb	N	L	10.4276	5.61358	-14.4317	-24.2159	-13.401
+./WT_5imkBA_Repair_1_3_0.pdb	N	L	8.24434	5.69129	-7.70784	-13.7804	-13.6699
+./WT_5imkBA_Repair_1_3_1.pdb	N	L	8.41914	5.81365	-7.67597	-11.9069	-13.7665
+./WT_5imkBA_Repair_1_3_2.pdb	N	L	8.29419	5.81647	-7.66642	-13.2958	-14.0002
+./5imkBA_Repair_1_4_0.pdb	N	L	21.5445	5.50599	-13.3561	-10.8184	-13.3883
+./5imkBA_Repair_1_4_1.pdb	N	L	21.4251	5.55019	-15.7675	-13.0464	-13.6135
+./5imkBA_Repair_1_4_2.pdb	N	L	21.1002	5.745	-14.7359	-10.0873	-13.8553
+./WT_5imkBA_Repair_1_4_0.pdb	N	L	8.44592	5.81527	-7.7257	-12.3222	-13.7501
+./WT_5imkBA_Repair_1_4_1.pdb	N	L	8.31426	5.78934	-7.78921	-15.4315	-14.0834
+./WT_5imkBA_Repair_1_4_2.pdb	N	L	8.41336	5.92021	-7.70041	-12.3794	-13.9182
+./5imkBA_Repair_1_5_0.pdb	N	L	18.4023	5.77053	-14.2475	-13.2771	-13.6683
+./5imkBA_Repair_1_5_1.pdb	N	L	18.6509	5.77701	-13.8584	-13.4125	-13.6744
+./5imkBA_Repair_1_5_2.pdb	N	L	23.1711	5.79642	-13.9336	-9.04483	-13.6717
+./WT_5imkBA_Repair_1_5_0.pdb	N	L	8.43973	5.75746	-7.72159	-12.1718	-13.7869
+./WT_5imkBA_Repair_1_5_1.pdb	N	L	8.4126	5.76638	-7.55034	-11.8964	-13.9302
+./WT_5imkBA_Repair_1_5_2.pdb	N	L	8.4152	5.75903	-7.67156	-11.8722	-13.8103
+./5imkBA_Repair_1_6_0.pdb	N	L	9.42073	6.28026	-19.2867	-16.4955	-12.0576
+./5imkBA_Repair_1_6_1.pdb	N	L	9.72786	6.24002	-19.8688	-18.3778	-12.5185
+./5imkBA_Repair_1_6_2.pdb	N	L	9.02146	6.29536	-21.6596	-17.0244	-12.0723
+./WT_5imkBA_Repair_1_6_0.pdb	N	L	8.56617	5.54392	-7.68956	-13.9329	-14.354
+./WT_5imkBA_Repair_1_6_1.pdb	N	L	8.3774	5.64255	-7.70835	-15.1892	-14.3326
+./WT_5imkBA_Repair_1_6_2.pdb	N	L	8.33688	5.54487	-7.75343	-14.8649	-14.3356

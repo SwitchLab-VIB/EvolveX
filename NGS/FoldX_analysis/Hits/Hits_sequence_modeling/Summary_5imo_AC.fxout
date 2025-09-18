@@ -1,0 +1,39 @@
+FoldX 5.1 (2011)
+by the FoldX Consortium 
+Jesper Borg, Frederic Rousseau, Joost Schymkowitz,
+Luis Serrano and Francois Stricher
+------------------------------------------------------
+
+PDB file analysed: ./5imoBA_Repair_1_1_0.pdb
+Output type: AnalyseComplex
+Pdb	Group1	Group2	IntraclashesGroup1	IntraclashesGroup2	Interaction Energy	StabilityGroup1	StabilityGroup2
+./5imoBA_Repair_1_1_0.pdb	N	L	10.4482	9.62756	-22.3265	-17.0333	-9.63393
+./5imoBA_Repair_1_1_1.pdb	N	L	9.68225	9.6386	-21.7678	-18.168	-9.60423
+./5imoBA_Repair_1_1_2.pdb	N	L	10.1759	9.61119	-21.3457	-18.48	-9.60082
+./WT_5imoBA_Repair_1_1_0.pdb	N	L	7.80252	9.62756	-18.3567	-12.0477	-9.63393
+./WT_5imoBA_Repair_1_1_1.pdb	N	L	7.59113	9.64425	-18.5414	-11.4459	-9.59981
+./WT_5imoBA_Repair_1_1_2.pdb	N	L	7.85244	9.61119	-18.2345	-12.1221	-9.60082
+./5imoBA_Repair_1_2_0.pdb	N	L	9.11296	9.5973	-22.7662	-19.4066	-9.60958
+./5imoBA_Repair_1_2_1.pdb	N	L	9.95933	9.68752	-22.7388	-19.6609	-9.67258
+./5imoBA_Repair_1_2_2.pdb	N	L	9.08893	9.62531	-22.411	-19.1083	-9.62942
+./WT_5imoBA_Repair_1_2_0.pdb	N	L	7.13917	9.63263	-18.766	-12.1885	-9.56804
+./WT_5imoBA_Repair_1_2_1.pdb	N	L	7.69919	9.67399	-18.6373	-13.2864	-9.73591
+./WT_5imoBA_Repair_1_2_2.pdb	N	L	6.66128	9.63751	-17.6904	-12.6457	-9.62581
+./5imoBA_Repair_1_3_0.pdb	N	L	8.14345	9.63151	-20.7272	-15.0765	-9.95402
+./5imoBA_Repair_1_3_1.pdb	N	L	9.94585	9.63586	-22.1807	-15.3613	-9.61746
+./5imoBA_Repair_1_3_2.pdb	N	L	8.31642	9.59342	-21.9097	-14.0324	-9.61123
+./WT_5imoBA_Repair_1_3_0.pdb	N	L	7.56748	9.63151	-18.1925	-10.7162	-9.95402
+./WT_5imoBA_Repair_1_3_1.pdb	N	L	7.57186	9.63249	-18.4973	-10.5698	-9.50367
+./WT_5imoBA_Repair_1_3_2.pdb	N	L	7.56947	9.60454	-18.8077	-10.5217	-9.53287
+./5imoBA_Repair_1_4_0.pdb	N	L	7.39345	9.46903	-23.7128	-15.8498	-8.74529
+./5imoBA_Repair_1_4_1.pdb	N	L	10.3928	9.59847	-23.1243	-16.2455	-9.23102
+./5imoBA_Repair_1_4_2.pdb	N	L	8.14583	9.59902	-21.4973	-14.5036	-9.97542
+./WT_5imoBA_Repair_1_4_0.pdb	N	L	6.61174	9.54608	-18.0523	-12.5748	-9.9757
+./WT_5imoBA_Repair_1_4_1.pdb	N	L	8.4469	9.66767	-18.5115	-11.2527	-9.60482
+./WT_5imoBA_Repair_1_4_2.pdb	N	L	7.57394	9.64355	-18.8558	-10.5409	-9.46526
+./5imoBA_Repair_1_5_0.pdb	N	L	7.72306	9.63011	-20.893	-12.4502	-7.9231
+./5imoBA_Repair_1_5_1.pdb	N	L	8.61616	9.61384	-21.0679	-11.7719	-8.51187
+./5imoBA_Repair_1_5_2.pdb	N	L	8.24279	9.63347	-21.1217	-11.9213	-8.77809
+./WT_5imoBA_Repair_1_5_0.pdb	N	L	7.56867	9.6094	-17.0083	-10.5438	-9.82453
+./WT_5imoBA_Repair_1_5_1.pdb	N	L	7.56861	9.58205	-17.1913	-10.5751	-9.65404
+./WT_5imoBA_Repair_1_5_2.pdb	N	L	7.56748	9.55891	-17.3629	-10.7373	-9.8313
