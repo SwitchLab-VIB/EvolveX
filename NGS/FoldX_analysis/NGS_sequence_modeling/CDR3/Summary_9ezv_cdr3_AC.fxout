@@ -1,0 +1,26 @@
+FoldX 5.1 (2011)
+by the FoldX Consortium 
+Jesper Borg, Frederic Rousseau, Joost Schymkowitz,
+Luis Serrano and Francois Stricher
+------------------------------------------------------
+
+PDB file analysed: ./9ezv_Repair_1_1.pdb
+Output type: AnalyseComplex
+Pdb	Group1	Group2	IntraclashesGroup1	IntraclashesGroup2	Interaction Energy	StabilityGroup1	StabilityGroup2
+./9ezv_Repair_1_1.pdb	N	L	7.52648	5.56472	-19.6373	-30.2077	-25.8188
+./WT_9ezv_Repair_1_1.pdb	N	L	6.90358	5.52872	-10.9238	-8.00048	-26.4489
+./9ezv_Repair_1_2.pdb	N	L	8.93836	5.63618	-22.673	-29.2882	-26.4141
+./WT_9ezv_Repair_1_2.pdb	N	L	6.41399	5.42844	-10.9387	-10.175	-26.6385
+./9ezv_Repair_1_3.pdb	N	L	10.1752	5.54078	-21.0183	-24.6427	-25.7689
+./WT_9ezv_Repair_1_3.pdb	N	L	6.42923	5.47857	-10.7022	-10.2767	-26.868
+./9ezv_Repair_1_4.pdb	N	L	8.74284	6.27715	-21.0355	-22.6194	-24.8983
+./WT_9ezv_Repair_1_4.pdb	N	L	6.42627	5.5726	-10.7281	-10.2301	-26.8025
+./9ezv_Repair_1_5.pdb	N	L	8.27135	5.50137	-22.0328	-29.6364	-25.8182
+./WT_9ezv_Repair_1_5.pdb	N	L	7.18822	5.52201	-10.9379	-8.81696	-26.4696
+./9ezv_Repair_1_6.pdb	N	L	11.033	6.34725	-22.2747	-24.6833	-25.5021
+./WT_9ezv_Repair_1_6.pdb	N	L	7.26868	5.51916	-10.7617	-8.2197	-26.8934
+./9ezv_Repair_1_7.pdb	N	L	7.79035	5.47689	-23.8348	-29.7137	-24.8851
+./WT_9ezv_Repair_1_7.pdb	N	L	6.61037	5.52943	-10.9041	-10.3748	-26.7062
+./9ezv_Repair_1_8.pdb	N	L	10.2644	5.55932	-17.9727	-28.1409	-25.9056
+./WT_9ezv_Repair_1_8.pdb	N	L	6.56078	5.52592	-10.8722	-10.6226	-26.6333
+./9ezv_Repair_1_9.pdb	N	L	9.33934	5.60194	-20.7932	-24.6868	-25.4406
